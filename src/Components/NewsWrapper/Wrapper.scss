@@ -1,0 +1,18 @@
+.Wrapper{
+    margin: 70px;
+    width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:600px){
+    .Wrapper{
+    width: 400px;
+    margin-top: 40px;
+    margin-inline: auto;
+    gap: 10px;
+    }
+}
